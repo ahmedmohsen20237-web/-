@@ -1,6 +1,29 @@
 /* ============================================================
    منصة الوسام التعليمية — style.css
 ============================================================ */
+
+/* ── الخطوط المحلية ── */
+@font-face {
+  font-family: 'Foda';
+  src: url('alfont_com_Foda-Free-Font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ThmanyahSerif';
+  src: url('thmanyahserifdisplay-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ThmanyahSans';
+  src: url('thmanyahsans-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --bg:#0f172a; --bg2:#0a1020;
   --surface:rgba(15,23,42,0.85); --surface2:rgba(30,41,59,0.75); --surface3:rgba(51,65,85,0.6);
